@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gamefficacy</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Gamefficacy</description>
+    <generator>Hugo -- 0.123.6</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>TL;DR I&amp;rsquo;m researching the behavior of people when learning with computer applications. To do this, I not only analyze the log files using machine learning methods, but also create the applications that capture the log files.
+Skills and interests &amp;#x1f469;&amp;zwj;&amp;#x1f3eb; &amp;#x1f469;&amp;zwj;&amp;#x1f52c;&amp;#x1f469;&amp;zwj;&amp;#x1f4bb; Certificates &amp;#x1f469;&amp;zwj;&amp;#x1f393; SAP Technology Consultant Google Cloud Certification Kleiner Maschinenschein Hobbies &amp;#x1f3a8; &amp;#x1f3ae; PC/Console &amp;#x1f6b5;&amp;zwj;&amp;#x2640;&amp;#xfe0f; Mountainbike &amp;#x1f3c4;&amp;zwj;&amp;#x2640;&amp;#xfe0f; Wakeboard &amp;#x1f58c;&amp;#xfe0f; Warhammer 40k
+Mail</description>
+    </item>
+    <item>
+      <title>Literatur</title>
+      <link>http://localhost:1313/literatur/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/literatur/</guid>
+      <description>&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Projekte</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>Arduino Lernumgebung Try
+Werkzeuge Lernumgebung Try
+Wakeboard Game Whackboard in progress
+Procedural Dungeon Game Discover Performative utterance in progress
+KISS-ME - Project Try</description>
+    </item>
+    <item>
+      <title>Arduino Lernumgebung</title>
+      <link>http://localhost:1313/posts/arduino/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/arduino/</guid>
+      <description>Diese Lernumgebung erarbeitet den Arduino. Leider funktioniert der Test nicht in mobile Browsern.
+Hier spielen</description>
+    </item>
+    <item>
+      <title>Werkzeuge/ Lernumgebung</title>
+      <link>http://localhost:1313/posts/mechanik/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mechanik/</guid>
+      <description>Dies ist die Werkzeug-Lernumgebung, hier gibt es eine Übersicht über Werkzeuge und Sicherheitsmaßnahmen.
+Hier spielen</description>
+    </item>
+  </channel>
+</rss>

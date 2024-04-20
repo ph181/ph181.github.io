@@ -1,0 +1,27 @@
+body {
+    background: blue;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    height: 30px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4CAF50;
+}
+.parallax {
+    /* The image used */
+    background-image: url("/path-to-your-image.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
