@@ -1,0 +1,28 @@
+.parallax {
+  /* The image used */
+  background-image: url("/parallax.jpg");
+
+  /* Set a specific height and width */
+  height: 100%; /* This will cover the full height of the document */
+  width: 100%; /* This will cover the full width of the viewport */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+
+  /* Position the parallax element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* This will place the parallax element behind your content */
+}
+
+.content {
+  padding: 20px;
+  justify-content: space-between;
+  background-color: #310303; /* This will give the content a white background */
+  position: relative; /* This will place the content above the parallax background */
+  z-index: 1; /* This will place the content above the parallax background */
+}

@@ -1,17 +1,13 @@
 ---
-title: "Projekte"
+title: "Projects"
 date: 2024-04-20
 draft: false
-menu:
-  main:
-    identifier: "projects"
-    name: "Projekte"
 ---
 
-### Arduino Lernumgebung
+### Arduino Learning Environment (german)
 [Try](https://ph181.github.io/arduino/)
 
-### Werkzeuge Lernumgebung
+### Tools and Machines Learning Environment (german)
 [Try](https://ph181.github.io/werkzeuge/)
 
 ### Wakeboard Game _Whackboard_

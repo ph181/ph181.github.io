@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article on Gamefficacy - efficient gaming</title>
+    <link>http://localhost:1313/tags/article/</link>
+    <description>Recent content in Article on Gamefficacy - efficient gaming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flow and Self-Efficacy in Serious Games</title>
+      <link>http://localhost:1313/posts/post-5/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-5/</guid>
+      <description>Although the performance of female students in STEM subjects is as good as that of male students, their self-efficacy expectations are at a low level. Given the influence of self-efficacy expectations on academic careers and later career decisions, measures are needed in this area. Serious games could be one way of increasing the self-efficacy expectations of adolescents and girls in particular. The property of serious games to enable flow experiences is said to have a positive effect on motivation and possibly also a positive influence on self-efficacy expectations.</description>
+    </item>
+    <item>
+      <title>Serious Games im Technikunterricht - lernwirksam oder nur Spielerei?</title>
+      <link>http://localhost:1313/posts/post-6/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-6/</guid>
+      <description>In the classroom, simulations can be used, for example, to make unclear content in electrical engineering and electronics can be made more accessible to learners through simulations. Additional motivation is provided the integration of such a simulation in a serious game. The motivating effect of of serious games is assumed to be in the flower life. The experience of flow should not only motivation, the experience of flow should also have an influence on the learning effectiveness of serious games and increase the learners&amp;rsquo; expectation of self-efficacy.</description>
+    </item>
+  </channel>
+</rss>

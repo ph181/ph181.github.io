@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter on Gamefficacy - efficient gaming</title>
+    <link>http://localhost:1313/tags/chapter/</link>
+    <description>Recent content in Chapter on Gamefficacy - efficient gaming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/chapter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Serious Games – effektive spielbasierte Lernanwendungen zur Förderung der Selbstwirksamkeitserwartung in technischen Kontexten</title>
+      <link>http://localhost:1313/posts/post-7/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-7/</guid>
+      <description>Women are still underrepresented in technical professions today. Self-concept and self-efficacy expectation play a role in career choice, but while self-concept is considered stable, self-efficacy expectation can potentially be promoted through interventions such as the serious games presented in this chapter. In Serena Supergreen, technical professions in the field of renewable energies and in Lights Out the basics of electrical the basics of electrical engineering. The games were used with 13-15-year-old pupils in secondary schools and secondary schools and improvements in self-efficacy expectations, intrinsic motivation and intrinsic motivation and the perceived competence of the young women were determined.</description>
+    </item>
+    <item>
+      <title>Serious Games in technical education - A Review</title>
+      <link>http://localhost:1313/posts/post-3/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-3/</guid>
+      <description>The article gives an overview of the (learning) research on serious games in technology-related teaching. For this purpose, serious games are first located in the approach of entertainment education and their potential for learning is elaborated. Their use in teaching as well as their dissemination in the technical context will be analysed and existing research will be summarized with regard to learning effectiveness and self-concept promotion. Finally, an ongoing research project with a self-developed serious game is presented, the resulting questions are discussed and an outlook is given.</description>
+    </item>
+  </channel>
+</rss>
