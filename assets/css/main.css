@@ -45,7 +45,7 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #2c326e;
+  background-color: #6ad6e4;
   overflow: hidden;
   
 }
@@ -53,7 +53,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #70dccc;
+  color: #6ad6e4;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -66,7 +66,7 @@
 }
 
 .topnav a.active {
-  background-color: #70dccc;
+  background-color: #6ad6e4;
   color: #70dccc;
 }
 
@@ -133,19 +133,19 @@ p, li, div {
 
 
 a:link {
-  color: #70dccc;
-}
-
-a:visited {
-  color: #70dccc;
-}
-
-a:hover {
   color: #2c326e;
 }
 
-a:active {
+a:visited {
+  color: #2c326e;
+}
+
+a:hover {
   color: #70dccc;
+}
+
+a:active {
+  color: #2c326e;
 }
 
 .tag {
