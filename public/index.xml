@@ -6,15 +6,8 @@
     <description>Recent content in Home on Gamefficacy - efficient gaming</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
-      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
-      <description>Arduino Learning Environment (german) Try&#xA;Tools and Machines Learning Environment (german) Try&#xA;Wakeboard Game Whackboard in progress&#xA;Procedural Dungeon Game Discover Performative utterance in progress&#xA;KISS-ME - Project Try</description>
-    </item>
     <item>
       <title>Arduino Learning Environment</title>
       <link>http://localhost:1313/posts/post-1/</link>
@@ -35,6 +28,13 @@
       <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/post-4/</guid>
       <description>The article is dedicated to the question of the extent to which traits such as self-concept and self-efficacy expectation are visible in the game behavior of a serious game and are changed by playing and whether game strategies depend on personal characteristics. The question is relevant against the background of how motivation for technical content can be promoted alongside knowledge.&#xA;Read</description>
+    </item>
+    <item>
+      <title>Wirkungen des Flow-Erlebens in einem Serious Game auf die Veränderung von Fachwissen und Selbstwirksamkeitserwartung</title>
+      <link>http://localhost:1313/posts/post-8/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-8/</guid>
+      <description>Promoting girls in mathematics, computer science, natural sciences and technology, the STEM subjects, is of great importance in order to give them career prospects in this field and reduce gender inequality. Despite considerable efforts, there is a persistent gender gap in STEM education and the world of work. One reason for this is seen in differences in self-perception. Despite objectively equal performance, female students rate their abilities in STEM fields lower than male students in terms of future success, i.</description>
     </item>
     <item>
       <title>Serious Games – effektive spielbasierte Lernanwendungen zur Förderung der Selbstwirksamkeitserwartung in technischen Kontexten</title>
@@ -69,14 +69,14 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>TL;DR I&amp;rsquo;m researching the behavior of people when learning with computer applications. To do this, I not only analyze the log files using machine learning methods, but also create the applications that capture the log files.&#xA;Skills and interests &amp;#x1f469;&amp;zwj;&amp;#x1f3eb;&amp;#x1f469;&amp;zwj;&amp;#x1f52c;&amp;#x1f469;&amp;zwj;&amp;#x1f4bb; Certificates &amp;#x1f469;&amp;zwj;&amp;#x1f393; SAP Technology Consultant Google Cloud Certification Kleiner Maschinenschein Hobbies &amp;#x1f3a8; &amp;#x1f3ae; PC/Console &amp;#x1f6b5;&amp;zwj;&amp;#x2640;&amp;#xfe0f; Mountainbike</description>
+      <description>TL;DR I&amp;rsquo;m researching the behavior of people when learning with computer applications. To do this, I not only analyze the log files using machine learning methods, but also create the applications that capture the log files.&#xA;Skills and interests &amp;#x1f469;&amp;zwj;&amp;#x1f3eb;&amp;#x1f469;&amp;zwj;&amp;#x1f52c;&amp;#x1f469;&amp;zwj;&amp;#x1f4bb; Certificates &amp;#x1f469;&amp;zwj;&amp;#x1f393; SAP Technology Consultant Google Cloud Certification Hobbies &amp;#x1f3a8; &amp;#x1f3ae; PC/Console &amp;#x1f6b5;&amp;zwj;&amp;#x2640;&amp;#xfe0f; Mountainbike</description>
     </item>
     <item>
-      <title>Love You</title>
-      <link>http://localhost:1313/andres/</link>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/andres/</guid>
-      <description></description>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>Arduino Learning Environment (german) Try&#xA;Tools and Machines Learning Environment (german) Try&#xA;Wakeboard Game Whackboard in progress&#xA;Procedural Dungeon Game Discover Performative utterance in progress&#xA;KISS-ME - Project Try</description>
     </item>
   </channel>
 </rss>

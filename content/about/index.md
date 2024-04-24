@@ -24,7 +24,6 @@ I'm researching the behavior of people when learning with computer applications.
 ### Certificates :woman_student:
 - SAP Technology Consultant
 - Google Cloud Certification
-- Kleiner Maschinenschein
 
 ### Hobbies :art:
 :video_game: PC/Console 
