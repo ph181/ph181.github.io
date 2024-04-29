@@ -1,6 +1,6 @@
 ---
 title: "Analyse der Prozessdaten eines Serious Games im Zusammenhang mit Antworten aus Fragebögen"
-date: 2023-10-10
+date: 2022-10-10
 draft: false
 tags: ['Literature', 'Research', 'Conference']
 ---

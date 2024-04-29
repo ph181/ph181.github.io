@@ -6,15 +6,8 @@
     <description>Recent content in Literature on Gamefficacy - efficient gaming</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/literature/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Analyse der Prozessdaten eines Serious Games im Zusammenhang mit Antworten aus Fragebögen</title>
-      <link>http://localhost:1313/posts/post-4/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post-4/</guid>
-      <description>The article is dedicated to the question of the extent to which traits such as self-concept and self-efficacy expectation are visible in the game behavior of a serious game and are changed by playing and whether game strategies depend on personal characteristics. The question is relevant against the background of how motivation for technical content can be promoted alongside knowledge.&#xA;Read</description>
-    </item>
     <item>
       <title>Wirkungen des Flow-Erlebens in einem Serious Game auf die Veränderung von Fachwissen und Selbstwirksamkeitserwartung</title>
       <link>http://localhost:1313/posts/post-8/</link>
@@ -28,6 +21,13 @@
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/post-7/</guid>
       <description>Women are still underrepresented in technical professions today. Self-concept and self-efficacy expectation play a role in career choice, but while self-concept is considered stable, self-efficacy expectation can potentially be promoted through interventions such as the serious games presented in this chapter. In Serena Supergreen, technical professions in the field of renewable energies and in Lights Out the basics of electrical the basics of electrical engineering. The games were used with 13-15-year-old pupils in secondary schools and secondary schools and improvements in self-efficacy expectations, intrinsic motivation and intrinsic motivation and the perceived competence of the young women were determined.</description>
+    </item>
+    <item>
+      <title>Analyse der Prozessdaten eines Serious Games im Zusammenhang mit Antworten aus Fragebögen</title>
+      <link>http://localhost:1313/posts/post-4/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-4/</guid>
+      <description>The article is dedicated to the question of the extent to which traits such as self-concept and self-efficacy expectation are visible in the game behavior of a serious game and are changed by playing and whether game strategies depend on personal characteristics. The question is relevant against the background of how motivation for technical content can be promoted alongside knowledge.&#xA;Read</description>
     </item>
     <item>
       <title>Flow and Self-Efficacy in Serious Games</title>

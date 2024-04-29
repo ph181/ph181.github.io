@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/adetpas-sorotitas/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/minipainting/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/post-9/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/wahrammer-40k/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/post-1/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
@@ -17,25 +29,16 @@
     <loc>http://localhost:1313/tags/school/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/post-2/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post-4/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/conference/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/doctoral-thesis/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/literature/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/research/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/doctoral-thesis/</loc>
     <lastmod>2023-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/post-8/</loc>
@@ -53,6 +56,12 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/post-4/</loc>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/conference/</loc>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/article/</loc>
     <lastmod>2022-09-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -68,5 +77,7 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
   </url>
 </urlset>
