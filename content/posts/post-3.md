@@ -13,4 +13,4 @@ analysed and existing research will be summarized with regard to learning
 effectiveness and self-concept promotion. Finally, an ongoing research project with a
 self-developed serious game is presented, the resulting questions are discussed and
 an outlook is given.
-[Read](still in publication process..)
+[Read](https://books.google.de/books?id=JUMDEQAAQBAJ&pg=PA49&hl=de&source=gbs_toc_r&cad=2#v=onepage&q&f=false)
