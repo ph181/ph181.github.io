@@ -6,6 +6,6 @@ tags: ['Projects', 'Godot', 'School']
 ---
 
 
-This learning environment for Arduino does not work in mobile browsers. (german)
+Learning environment for Arduino based on Frick et al. (2017) Einführung in den Mikrocontroller Arduino (arduino1.nwt.schule). (german)
 
 [Try](https://ph181.github.io/arduino/)
