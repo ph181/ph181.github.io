@@ -26,8 +26,8 @@ I'm researching the behavior of people when learning with computer applications.
 - Google Cloud Certification
 
 ### Hobbies :art:
-:video_game: PC/Console 
+:video_game: PC/Console Gaming
 :mountain_biking_woman: Mountainbike
-<!-- :surfing_woman: Wakeboard
-:paintbrush: Warhammer 40k  -->
+:surfing_woman: Wakeboard
+:paintbrush: Warhammer 40k
 

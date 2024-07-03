@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/post-1/</link>
       <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/post-1/</guid>
-      <description>This learning environment for Arduino does not work in mobile browsers. (german)&#xA;Try</description>
+      <description>Learning environment for Arduino based on Frick et al. (2017) Einführung in den Mikrocontroller Arduino (arduino1.nwt.schule). (german)&#xA;Try</description>
     </item>
     <item>
       <title>Tools &amp; Machines Learning Environment</title>

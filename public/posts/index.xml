@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Gamefficacy - efficient gaming</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Training the BS 180</title>
+      <link>http://localhost:1313/posts/post-11/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-11/</guid>
+      <description>A year ago i stood on a wakeboard for the first time, in the middle of august i used my vacation to really get started with my own board. This season I&amp;rsquo;ve been riding more often than last year, but my progress has been limited, I&amp;rsquo;m trying pretty hard at the backside 180.&#xA;So far I&amp;rsquo;ve managed the frontside 180 and switch FS 180. The next step is to do the backside 180 on the water surface and in combination with an ollie.</description>
+    </item>
     <item>
       <title>Painting my Combat Patrol</title>
       <link>http://localhost:1313/posts/post-9/</link>
@@ -20,7 +27,7 @@
       <link>http://localhost:1313/posts/post-1/</link>
       <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/post-1/</guid>
-      <description>This learning environment for Arduino does not work in mobile browsers. (german)&#xA;Try</description>
+      <description>Learning environment for Arduino based on Frick et al. (2017) Einführung in den Mikrocontroller Arduino (arduino1.nwt.schule). (german)&#xA;Try</description>
     </item>
     <item>
       <title>Tools &amp; Machines Learning Environment</title>

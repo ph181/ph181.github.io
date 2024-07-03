@@ -1,17 +1,19 @@
 .parallax {
   background-image: url("/parallax.jpg");
   background-position: center; 
-  height: 150%; 
+  height: 100%; 
   width: 100%; 
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
 }
+
+
 
 .content {
   padding: 20px;
@@ -150,6 +152,10 @@ a:active {
 
 .tag {
   display: inline-block;
-  margin-right: 5px; /* optional: adds some space between the tags */
+  margin-right: 5px; 
 }
 
+.video-wrapper {
+  display: block;
+  width: 100%;
+}
