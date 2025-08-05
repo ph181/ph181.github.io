@@ -99,6 +99,54 @@ date: false
   </ul>
 </div>
 
+<div class="literature-section">
+<h3>Literature & Publications 📚</h3>
+<div class="literature-grid">
+<div class="literature-item">
+<div class="literature-type">Doctoral Thesis</div>
+<h4><a href="/posts/post-8/" class="literature-link">Wirkungen des Flow-Erlebens in einem Serious Game auf die Veränderung von Fachwissen und Selbstwirksamkeitserwartung</a></h4>
+<p class="literature-meta">Perlwitz, P. (2023)</p>
+<p class="literature-venue">PhD Dissertation</p>
+<a href="https://doi.org/10.60530/opus-3265" class="external-link" target="_blank" rel="noopener">🔗 Read Full Text</a>
+</div>
+<div class="literature-item">
+<div class="literature-type">Book Chapter</div>
+<h4><a href="/posts/post-7/" class="literature-link">Serious Games – effektive spielbasierte Lernanwendungen zur Förderung der Selbstwirksamkeitserwartung in technischen Kontexten</a></h4>
+<p class="literature-meta">Perlwitz, P., Spangenberger, P. & Stemmann, J. (2023)</p>
+<p class="literature-venue">In: Zinn, B. (Hrsg.). Virtual, Augmented und Cross Reality in der beruflichen Aus- und Weiterbildung (S. 235-251). Stuttgart: Steiner.</p>
+<a href="http://dx.doi.org/10.25162/9783515135481" class="external-link" target="_blank" rel="noopener">🔗 Read Full Text</a>
+</div>
+<div class="literature-item">
+<div class="literature-type">Journal Article</div>
+<h4><a href="/posts/post-6/" class="literature-link">Serious Games im Technikunterricht - lernwirksam oder nur Spielerei?</a></h4>
+<p class="literature-meta">Perlwitz, P., Stemmann, J. & Chaari, A. (2022)</p>
+<p class="literature-venue">technik-education (tedu). Fachzeitschrift für Unterrichtspraxis und Unterrichtsforschung im allgemeinbildenden Technikunterricht, 2(1), 3-10.</p>
+<a href="http://dx.doi.org/10.25656/01:24867" class="external-link" target="_blank" rel="noopener">🔗 Read Full Text</a>
+</div>
+<div class="literature-item">
+<div class="literature-type">Book Chapter</div>
+<h4><a href="/posts/post-5/" class="literature-link">Flow and Self-Efficacy in a Serious Game for STEM Education</a></h4>
+<p class="literature-meta">Perlwitz, P. & Stemmann, J. (2022)</p>
+<p class="literature-venue">In: Söbke, H,; Spangenberger, P.; Müller, P. Göbel, S. (Hrsg). Serious Games. JCSG2022: Joint Conference on Serious Games 2022 (S. 3-16). Springer.</p>
+<a href="http://dx.doi.org/10.1007/978-3-031-15325-9_1" class="external-link" target="_blank" rel="noopener">🔗 Read Full Text</a>
+</div>
+<div class="literature-item">
+<div class="literature-type">Conference Paper</div>
+<h4><a href="/posts/post-4/" class="literature-link">Analyse der Prozessdaten eines Serious Games im Zusammenhang mit Antworten aus Fragebögen</a></h4>
+<p class="literature-meta">Perlwitz, P. & Stemmann, J. (2022)</p>
+<p class="literature-venue">7. JOTED Technikdidaktik Symposium, Stuttgart.</p>
+<a href="https://www.journal-of-technical-education.de/index.php/joted/article/view/267/246#page=40" class="external-link" target="_blank" rel="noopener">🔗 Read Full Text</a>
+</div>
+<div class="literature-item">
+<div class="literature-type">Book Chapter</div>
+<h4><a href="/posts/post-3/" class="literature-link">Serious Games in technical education - A Review</a></h4>
+<p class="literature-meta">Perlwitz, P., Stemmann, J. (2024)</p>
+<p class="literature-venue">In: de Vries, M.J.; Fletcher, S.; Kruse, S.; Labudde, P.; Lang, M.; Mammes, I.; Max, C.; Münk, D.; Nicholl, B.; Strobel, J.; (Hg.). Center of Excellence for Technology Education (CETE): Bd. 4. (S. 49-71) Waxmann.</p>
+<a href="https://books.google.de/books?id=JUMDEQAAQBAJ&pg=PA49&hl=de&source=gbs_toc_r&cad=2#v=onepage&q&f=false" class="external-link" target="_blank" rel="noopener">🔗 Read Full Text</a>
+</div>
+</div>
+</div>
+
 <div class="professional-networks-section">
   <h3>Professional Networks 🔗</h3>
   <div class="networks-grid">
