@@ -1,14 +1,15 @@
 <header class="site-header">
-    <h1 class="full-title">Gamefficacy - efficient gaming</h1>
-    <h1 class="short-title">Gamefficacy</h1>
-    <div class="topnav" id="myTopnav">
-        {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
-        {{ end }}
-        <a href="mailto: info@gamefficacy.org">
-            <i class="fa fa-envelope"></i>
-        </a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
-    </div>
+    <div style="max-width: 900px; margin: 0 auto; padding: 0 2rem;">
+        <h1 class="full-title">Phoebe Perlwitz - Data Scientist & Researcher</h1>
+        <h1 class="short-title">P. Perlwitz</h1>
+        <div class="topnav" id="myTopnav">
+            {{ range .Site.Menus.main }}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+            <a href="mailto: phoebe@perlwitz.com" title="Contact me">
+                <i class="fa fa-envelope"></i>
+            </a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+        </div>
     </div>
 </header>

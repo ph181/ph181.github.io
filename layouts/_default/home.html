@@ -1,7 +1,30 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+  
+  <div class="posts-section">
+    <h2>Latest Posts</h2>
+    <div class="posts-grid">
+      {{ range first 6 (where site.RegularPages "Section" "posts") }}
+        <article class="post-card">
+          <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+          {{ if .Date }}
+            <time class="post-date">{{ .Date.Format "January 2, 2006" }}</time>
+          {{ end }}
+          <div class="post-summary">
+            {{ .Summary }}
+          </div>
+          {{ if .Params.tags }}
+            <div class="post-tags">
+              {{ range .Params.tags }}
+                <span class="tag">{{ . }}</span>
+              {{ end }}
+            </div>
+          {{ end }}
+        </article>
+      {{ end }}
+    </div>
+    <div class="view-all-posts">
+      <a href="/posts/" class="view-all-btn">View All Posts →</a>
+    </div>
+  </div>
 {{ end }}

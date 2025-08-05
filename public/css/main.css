@@ -1,31 +1,1131 @@
+/* CSS Variables for Light Mode - Bright Pink & Turquoise */
+:root {
+  --primary-color: #ec4899;      /* Bright Pink */
+  --secondary-color: #06b6d4;    /* Bright Cyan */
+  --accent-color: #10b981;       /* Emerald accent */
+  --background-color: #ffffff;   /* Pure white */
+  --surface-color: #fef7ff;      /* Very light pink tint */
+  --text-primary: #1f2937;       /* Dark gray text */
+  --text-secondary: #6b7280;     /* Medium gray text */
+  --border-color: #f3e8ff;       /* Light pink border */
+  --shadow: 0 1px 3px 0 rgba(236, 72, 153, 0.1), 0 1px 2px 0 rgba(236, 72, 153, 0.06);
+  --header-bg: #fef7ff;
+  --neon-glow: none;
+}
+
+/* Dark Mode Variables (Vice City Night Mode) */
+[data-theme="dark"] {
+  --primary-color: #ff1493;      /* Deep Pink */
+  --secondary-color: #9932cc;    /* Dark Orchid */
+  --accent-color: #00ced1;       /* Dark Turquoise */
+  --background-color: #000000;   /* Pure black */
+  --surface-color: #0d0008;      /* Almost black with hint of purple */
+  --text-primary: #ffffff;       /* Pure white text */
+  --text-secondary: #ff69b4;     /* Hot pink text */
+  --border-color: #ff1493;       /* Deep pink border */
+  --shadow: 0 0 15px rgba(255, 20, 147, 0.4), 0 0 30px rgba(255, 20, 147, 0.2);
+  --header-bg: #050002;
+  --neon-glow: 0 0 8px currentColor, 0 0 16px currentColor, 0 0 24px currentColor;
+}
+
+/* Theme Switcher Button */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--surface-color);
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  color: var(--primary-color);
+  text-shadow: var(--neon-glow);
+}
+
+.theme-toggle:hover {
+  background: var(--primary-color);
+  color: var(--background-color);
+  transform: scale(1.1);
+  box-shadow: var(--shadow), var(--neon-glow);
+}
+
+/* Theme icon styling */
+.theme-toggle i {
+  color: inherit;
+  font-size: inherit;
+}
+
+/* Light mode: simple hover effect */
+:root .theme-toggle:hover {
+  animation: none;
+  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+}
+
+/* Dark mode: neon pulse effect */
+[data-theme="dark"] .theme-toggle:hover {
+  animation: neonPulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes neonPulse {
+  from { 
+    box-shadow: var(--shadow), 0 0 5px var(--primary-color);
+    transform: rotate(0deg) scale(1.1); 
+  }
+  to { 
+    box-shadow: var(--shadow), 0 0 20px var(--primary-color), 0 0 30px var(--primary-color);
+    transform: rotate(360deg) scale(1.1); 
+  }
+}
+
+/* Dark Mode specific adjustments */
+[data-theme="dark"] .parallax {
+  background: linear-gradient(135deg, var(--background-color) 0%, #334155 100%);
+}
+
+[data-theme="dark"] .skill-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .post-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+  color: var(--background-color);
+}
+
+[data-theme="dark"] .topnav a {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .topnav a:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+/* Smooth transitions for theme switching */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Responsive theme toggle */
+@media screen and (max-width: 768px) {
+  .theme-toggle {
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
 .parallax {
-  /* The image used */
-  background-image: url("/parallax.jpg");
-
-  /* Set a specific height and width */
-  height: 100%; /* This will cover the full height of the document */
-  width: 100%; /* This will cover the full width of the viewport */
-
-  /* Create the parallax scrolling effect */
+  background: linear-gradient(135deg, 
+    var(--surface-color) 0%, 
+    #f0fdfa 25%, 
+    #ecfeff 50%, 
+    #e0f2fe 75%, 
+    var(--border-color) 100%);
   background-attachment: fixed;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 
-  /* Position the parallax element */
+/* Light mode: subtle pink-cyan grid overlay */
+:root .parallax::before {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1; /* This will place the parallax element behind your content */
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(236, 72, 153, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(6, 182, 212, 0.08) 1px, transparent 1px);
+  background-size: 50px 50px;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+/* Dark mode: Vice City grid overlay effect */
+[data-theme="dark"] .parallax {
+  background: linear-gradient(135deg, 
+    var(--background-color) 0%, 
+    #1a0d1a 25%, 
+    #0d0015 50%, 
+    #15000a 75%, 
+    var(--surface-color) 100%);
+}
+
+[data-theme="dark"] .parallax::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(255, 0, 128, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 0, 128, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  opacity: 0.3;
+  z-index: -1;
 }
 
 .content {
-  padding: 20px;
-  justify-content: space-between;
-  background-color: #310303; /* This will give the content a white background */
-  position: relative; /* This will place the content above the parallax background */
-  z-index: 1; /* This will place the content above the parallax background */
+  background-color: var(--background-color);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+  border: 1px solid var(--border-color);
 }
 
+.footer {
+  background-color: var(--surface-color);
+  border-top: 1px solid var(--border-color);
+  margin-top: 3rem;
+  padding: 2rem 0;
+  text-align: center;
+}
 
+.site-header {
+  background-color: var(--background-color);
+  border-bottom: 2px solid var(--border-color);
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 
+.site-header h1 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  text-shadow: var(--neon-glow);
+  letter-spacing: 2px;
+}
+
+/* Light mode: clean sans-serif font */
+:root .site-header h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  text-shadow: none;
+  letter-spacing: normal;
+}
+
+/* Dark mode: retro monospace font with neon glow */
+[data-theme="dark"] .site-header h1 {
+  font-family: 'Courier New', monospace;
+  text-shadow: var(--neon-glow);
+  letter-spacing: 2px;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.topnav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  border: 1px solid transparent;
+}
+
+/* Light mode: clean sans-serif navigation */
+:root .topnav a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+:root .topnav a:hover {
+  background-color: var(--surface-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  text-shadow: none;
+  box-shadow: 0 2px 8px rgba(236, 72, 153, 0.15);
+}
+
+/* Dark mode: retro monospace navigation with neon effects */
+[data-theme="dark"] .topnav a {
+  font-family: 'Courier New', monospace;
+}
+
+[data-theme="dark"] .topnav a:hover {
+  background-color: var(--surface-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  text-shadow: 0 0 8px var(--primary-color);
+  box-shadow: 0 0 10px rgba(255, 0, 128, 0.3);
+}
+
+.topnav a.active {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  text-shadow: none;
+  box-shadow: var(--neon-glow);
+}
+
+.topnav .icon {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+/* Responsive Navigation */
+@media screen and (max-width: 768px) {
+  .content {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .site-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .topnav {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 1rem;
+  }
+  
+  .topnav a:not(.icon) {
+    display: none;
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .topnav a.icon {
+    display: block;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive a {
+    display: block;
+  }
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+/* Dark mode: retro monospace typography */
+[data-theme="dark"] h1, 
+[data-theme="dark"] h2, 
+[data-theme="dark"] h3, 
+[data-theme="dark"] h4, 
+[data-theme="dark"] h5, 
+[data-theme="dark"] h6 {
+  font-family: 'Courier New', monospace;
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.875rem; }
+h3 { 
+  font-size: 1.5rem; 
+  color: var(--primary-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.125rem; }
+h6 { font-size: 1rem; }
+
+/* Dark mode heading effects */
+[data-theme="dark"] h3 {
+  text-shadow: 0 0 8px var(--primary-color);
+}
+
+p, li, div {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Dark mode: retro monospace text */
+[data-theme="dark"] p, 
+[data-theme="dark"] li, 
+[data-theme="dark"] div {
+  font-family: 'Courier New', monospace;
+}
+
+/* Project page styling */
+.content h3 {
+  position: relative;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+/* Light mode project section styling */
+:root .content h3 {
+  border-bottom-color: var(--primary-color);
+}
+
+/* Dark mode project section styling */
+[data-theme="dark"] .content h3 {
+  border-bottom-color: var(--primary-color);
+  box-shadow: 0 2px 0 0 var(--primary-color);
+}
+
+/* Project description paragraphs - fallback for all browsers */
+.content h3 + p {
+  margin-top: 1rem;
+}
+
+/* Style for status text (like "in progress") */
+.content p {
+  color: var(--text-primary);
+}
+
+/* Special styling for project status lines */
+.content h3 + p + h3 {
+  margin-top: 3rem;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+/* Content area specific styling */
+.content a {
+  color: #ffffff(--primary-color);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.content a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+/* Ensure all content respects the theme */
+.content {
+  background-color: var(--background-color);
+  color: var(--text-primary);
+}
+
+.content h1, 
+.content h2, 
+.content h3, 
+.content h4, 
+.content h5, 
+.content h6 {
+  color: var(--primary-color);
+}
+
+/* Light mode content styling */
+:root .content {
+  border: 1px solid var(--border-color);
+}
+
+/* Dark mode content styling */
+[data-theme="dark"] .content {
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow);
+}
+
+/* Project links specific styling */
+.content h3 + p a,
+.content p a[href*="http"] {
+  display: inline-block;
+  background: var(--primary-color);
+  color: var(--background-color);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+  border: none;
+}
+
+/* Light mode project links */
+:root .content h3 + p a:hover,
+:root .content p a[href*="http"]:hover {
+  background: var(--secondary-color);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(236, 72, 153, 0.3);
+}
+
+/* Dark mode project links */
+[data-theme="dark"] .content h3 + p a,
+[data-theme="dark"] .content p a[href*="http"] {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Courier New', monospace;
+}
+
+[data-theme="dark"] .content h3 + p a:hover,
+[data-theme="dark"] .content p a[href*="http"]:hover {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+  box-shadow: 0 0 15px var(--primary-color);
+  text-shadow: 0 0 8px var(--background-color);
+}
+
+/* Tags */
+.tag {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  color: var(--text-secondary);
+  display: inline-block;
+  font-size: 0.875rem;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  padding: 0.25rem 0.75rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Light mode: clean sans-serif tags */
+:root .tag {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+:root .tag:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(236, 72, 153, 0.2);
+  text-shadow: none;
+}
+
+/* Dark mode: retro monospace tags with neon effects */
+[data-theme="dark"] .tag {
+  font-family: 'Courier New', monospace;
+}
+
+[data-theme="dark"] .tag:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  text-decoration: none;
+  box-shadow: 0 0 10px var(--primary-color);
+  text-shadow: none;
+}
+
+.video-wrapper {
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Title responsive behavior */
+.full-title {
+  display: block;
+}
+
+.short-title {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .full-title {
+    display: none;
+  }
+
+  .short-title {
+    display: block;
+  }
+
+  .networks-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .network-link {
+    padding: 0.8rem 0.5rem;
+  }
+
+  .network-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .network-link span {
+    font-size: 0.8rem;
+  }
+}
+
+/* Additional spacing and layout improvements */
+.content img {
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  max-width: 100%;
+  height: auto;
+}
+
+.content pre {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.content code {
+  background-color: var(--surface-color);
+  border-radius: 3px;
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.875rem;
+  padding: 0.125rem 0.25rem;
+}
+
+/* Dark mode: consistent monospace for code */
+[data-theme="dark"] .content code {
+  font-family: 'Courier New', monospace;
+}
+
+.content blockquote {
+  border-left: 4px solid var(--primary-color);
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+                                             
+/* About Page Responsive Layout */
+.about-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: var(--surface-color);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.about-image {
+  flex: 0 0 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+/* Skills Grid with Flip Cards */
+.skills-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: var(--surface-color);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.skills-section h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem;
+  margin-top: 1.5rem;
+  max-width: 100%;
+  justify-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Flip Card Structure */
+.skill-card {
+  background-color: transparent;
+  width: 250px;
+  height: 160px;
+  perspective: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.skill-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s ease-in-out;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.skill-card:hover .skill-card-inner {
+  transform: rotateY(180deg);
+}
+
+.skill-card-front, .skill-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+  left: 0;
+  top: 0;
+  margin: 0;
+  transform-origin: center center;
+  box-sizing: border-box;
+}
+
+.skill-card-front {
+  background-color: var(--surface-color);
+  color: var(--text-primary);
+  transform: rotateY(0deg);
+  border: 1px solid var(--border-color);
+}
+
+.skill-card-back {
+  color: var(--background-color);
+  transform: rotateY(180deg);
+  border: 1px solid var(--accent-color);
+}
+
+/* Light mode: use homepage background color */
+:root .skill-card-back {
+  background: var(--background-color);
+  color: var(--text-primary);
+  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.2);
+  border: 1px solid var(--primary-color);
+}
+
+/* Dark mode: Vice City gradient with neon glow */
+[data-theme="dark"] .skill-card-back {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  box-shadow: var(--neon-glow);
+  font-family: 'Courier New', monospace;
+}
+
+.skill-card-front img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.skill-card-front span {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.skill-card-back h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.skill-card-back p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* Certificates and Hobbies */
+.certificates-section,
+.hobbies-section,
+.professional-networks-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: var(--surface-color);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.certificates-section h3,
+.hobbies-section h3,
+.professional-networks-section h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+/* Professional Networks Grid */
+.networks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.network-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+}
+
+.network-link:hover {
+  transform: translateY(-2px);
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.network-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.network-link span {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Dark mode: retro monospace for network links */
+[data-theme="dark"] .network-link span {
+  font-family: 'Courier New', monospace;
+}
+
+/* Dark mode adjustments for networks */
+[data-theme="dark"] .network-link:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.hobbies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hobby-item {
+  background-color: var(--background-color);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+/* Dark mode: retro monospace for hobby items */
+[data-theme="dark"] .hobby-item {
+  font-family: 'Courier New', monospace;
+}
+
+.hobby-item:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  transform: translateY(-1px);
+}
+
+/* Responsive Design for About Page */
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .about-image {
+    flex: none;
+    align-self: center;
+  }
+  
+  .skill-card {
+    width: 220px;
+    height: 140px;
+    margin: 0 auto;
+  }
+  
+  .skill-card-front img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.4rem;
+  }
+  
+  .skill-card-front span {
+    font-size: 0.9rem;
+  }
+  
+  .skill-card-back h4 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .skill-card-back p {
+    font-size: 0.8rem;
+  }
+  
+  .hobbies-list {
+    justify-content: center;
+  }
+}
+
+/* Home Page Posts Section */
+.posts-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: var(--surface-color);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.posts-section h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.post-card {
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary-color);
+}
+
+/* Light mode: subtle shadow */
+:root .post-card:hover {
+  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.15);
+}
+
+/* Dark mode: neon glow effect */
+[data-theme="dark"] .post-card:hover {
+  box-shadow: var(--shadow), 0 0 15px rgba(255, 0, 128, 0.2);
+}
+
+.post-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.post-card h3 a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.post-card h3 a:hover {
+  color: var(--text-primary);
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.post-summary {
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.post-tags .tag {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.view-all-posts {
+  text-align: center;
+}
+
+.view-all-btn {
+  display: inline-block;
+  background: var(--primary-color);  /* Pink background */
+  color: #ffffff;  /* Explicit white text */
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 1px solid var(--primary-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.view-all-btn:hover {
+  background: var(--background-color);  /* White background on hover */
+  color: var(--primary-color);  /* Pink text on hover */
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+}
+
+/* Dark mode: retro neon button styling */
+[data-theme="dark"] .view-all-btn {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-color: var(--primary-color);
+  color: #ffffff;  /* Explicit white text for dark mode */
+}
+
+[data-theme="dark"] .view-all-btn:hover {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+  box-shadow: 0 0 20px var(--primary-color);
+  text-shadow: 0 0 8px var(--background-color);
+  border-color: var(--accent-color);
+  color: #ffffff;  /* Explicit white text on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .posts-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .post-card {
+    padding: 1rem;
+  }
+}
+
+/* Vice City specific enhancements for dark mode only */
+[data-theme="dark"] h1, 
+[data-theme="dark"] h2, 
+[data-theme="dark"] h3 {
+  text-shadow: 0 0 5px var(--primary-color);
+}
+
+/* Scrollbar styling for Vice City theme */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+/* Text selection styling */
+::selection {
+  background: var(--primary-color);
+  color: var(--background-color);
+  text-shadow: none;
+}

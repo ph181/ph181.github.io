@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Conference on Gamefficacy - efficient gaming</title>
-    <link>http://localhost:1313/tags/conference/</link>
-    <description>Recent content in Conference on Gamefficacy - efficient gaming</description>
+    <title>Conference on Phoebe Perlwitz - Data Scientist</title>
+    <link>https://example.org/tags/conference/</link>
+    <description>Recent content in Conference on Phoebe Perlwitz - Data Scientist</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analyse der Prozessdaten eines Serious Games im Zusammenhang mit Antworten aus Fragebögen</title>
-      <link>http://localhost:1313/posts/post-4/</link>
+      <link>https://example.org/posts/post-4/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post-4/</guid>
+      <guid>https://example.org/posts/post-4/</guid>
       <description>The article is dedicated to the question of the extent to which traits such as self-concept and self-efficacy expectation are visible in the game behavior of a serious game and are changed by playing and whether game strategies depend on personal characteristics. The question is relevant against the background of how motivation for technical content can be promoted alongside knowledge.&#xA;Read</description>
     </item>
   </channel>

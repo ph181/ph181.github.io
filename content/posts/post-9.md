@@ -1,7 +1,7 @@
 ---
 title: "Painting my Combat Patrol"
 date: 2024-04-28
-draft: false
+draft: true
 tags: ['Wahrammer 40k', 'Minipainting', 'Adeptas Sorotitas']
 ---
 

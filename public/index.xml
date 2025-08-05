@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Gamefficacy - efficient gaming</title>
+    <title>Home on Phoebe Perlwitz - Data Scientist</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Gamefficacy - efficient gaming</description>
+    <description>Recent content in Home on Phoebe Perlwitz - Data Scientist</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Training the BS 180</title>
-      <link>http://localhost:1313/posts/post-11/</link>
-      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post-11/</guid>
-      <description>A year ago i stood on a wakeboard for the first time, in the middle of august i used my vacation to really get started with my own board. This season I&amp;rsquo;ve been riding more often than last year, but my progress has been limited, I&amp;rsquo;m trying pretty hard at the backside 180.&#xA;So far I&amp;rsquo;ve managed the frontside 180 and switch FS 180. The next step is to do the backside 180 on the water surface and in combination with an ollie.</description>
-    </item>
-    <item>
-      <title>Painting my Combat Patrol</title>
-      <link>http://localhost:1313/posts/post-9/</link>
-      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post-9/</guid>
-      <description> </description>
-    </item>
     <item>
       <title>Arduino Learning Environment</title>
       <link>http://localhost:1313/posts/post-1/</link>
@@ -83,7 +69,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>TL;DR I&amp;rsquo;m researching the behavior of people when learning with computer applications. To do this, I not only analyze the log files using machine learning methods, but also create the applications that capture the log files.&#xA;Skills and interests &amp;#x1f469;&amp;zwj;&amp;#x1f3eb;&amp;#x1f469;&amp;zwj;&amp;#x1f52c;&amp;#x1f469;&amp;zwj;&amp;#x1f4bb; Certificates &amp;#x1f469;&amp;zwj;&amp;#x1f393; SAP Technology Consultant Google Cloud Certification Hobbies &amp;#x1f3a8; &amp;#x1f3ae; PC/Console Gaming &amp;#x1f6b5;&amp;zwj;&amp;#x2640;&amp;#xfe0f; Mountainbike &amp;#x1f3c4;&amp;zwj;&amp;#x2640;&amp;#xfe0f; Wakeboard &amp;#x1f58c;&amp;#xfe0f; Warhammer 40k</description>
+      <description>TL;DR&#xD;I&#39;m a data scientist and researcher specializing in educational technology and human-computer interaction. I analyze learning behaviors through machine learning methods and develop applications that capture meaningful data about how people learn with technology.&#xA;Skills and interests 👩‍🏫👩‍🔬👩‍💻&#xD;Teaching&#xD;Teaching&#xD;High School: Physics, NwT, Informatics | University: Electrical Engineering, Electronics, Digital Technology, System Modeling (PH Freiburg)&#xA;Programming &amp; API Frameworks&#xD;Programming &amp; APIs&#xD;Python, C++, TypeScript, FastAPI, Uvicorn, Flask, JSON</description>
     </item>
     <item>
       <title>Projects</title>
