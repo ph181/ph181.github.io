@@ -9,7 +9,7 @@ date: false
   </div>
   <div class="about-content">
     <h3>TL;DR</h3>
-    <p>I'm a data scientist and researcher specializing in educational technology and human-computer interaction. I analyze learning behaviors through machine learning methods and develop applications that capture meaningful data about how people learn with technology.</p>
+    <p>I'm a data scientist and researcher specializing in AI, educational technology and human-computer interaction. I analyze learning behaviors through machine learning methods and develop applications that capture meaningful data about how people learn with technology.</p>
   </div>
 </div>
 
@@ -24,7 +24,7 @@ date: false
         </div>
         <div class="skill-card-back">
           <h4>Teaching</h4>
-          <p>High School: Physics, NwT, Informatics | University: Electrical Engineering, Electronics, Digital Technology, System Modeling (PH Freiburg)</p>
+          <p>High School: Physics, NwT, Informatics | University: Electrical Engineering, Electronics, Digital Technology, System Modeling</p>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@ date: false
         </div>
         <div class="skill-card-back">
           <h4>Programming & APIs</h4>
-          <p>Python, C++, TypeScript, FastAPI, Uvicorn, Flask, JSON</p>
+          <p>Python, C++, FastAPI, Uvicorn</p>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ date: false
         </div>
         <div class="skill-card-back">
           <h4>ML & AI</h4>
-          <p>scikit-learn, PyTorch, TensorFlow, MLflow, MCP</p>
+          <p>R, scikit-learn, SEM, pandas, NumPy,</p>
         </div>
       </div>
     </div>
@@ -60,7 +60,7 @@ date: false
         </div>
         <div class="skill-card-back">
           <h4>Cloud & Tools</h4>
-          <p>Google Cloud, SAP, Docker, Kubernetes, GitLab-CI, Godot</p>
+          <p>Azure, Docker, GitLab-CI, Godot</p>
         </div>
       </div>
     </div>
@@ -72,7 +72,7 @@ date: false
         </div>
         <div class="skill-card-back">
           <h4>Data & Evaluation</h4>
-          <p>R, SEM, pandas, NumPy, Power BI, JIRA, Selenium, SQL/PostgreSQL, MCP</p>        
+          <p>JIRA, Selenium, SQL/PostgreSQL</p>        
         </div>
       </div>
     </div>
