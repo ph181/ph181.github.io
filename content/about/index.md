@@ -9,7 +9,7 @@ date: false
   </div>
   <div class="about-content">
     <h3>TL;DR</h3>
-    <p>I'm a data scientist and researcher specializing in AI, educational technology and human-computer interaction. I analyze learning behaviors through machine learning methods and develop applications that capture meaningful data about how people learn with technology.</p>
+    <p>I'm a data scientist and researcher specializing in AI, human-computer interaction and educational technology. I design AI systems that turn complex data into measurable impact. With a background in machine learning and behavioral modeling, I build scalable solutions that drive informed decisions and real-world change.</p>
   </div>
 </div>
 
